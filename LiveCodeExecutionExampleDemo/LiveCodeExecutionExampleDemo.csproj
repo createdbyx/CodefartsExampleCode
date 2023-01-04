@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWindowsForms>False</UseWindowsForms>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>True</UseWPF>
+        <StartupObject></StartupObject>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AvalonEdit" Version="6.2.0.78" />
+      <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.4.0" />
+      <PackageReference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform" Version="3.6.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Page Include="App.xaml" />
+    </ItemGroup>
+
+</Project>
